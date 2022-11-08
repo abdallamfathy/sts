@@ -9,7 +9,7 @@ module.exports = {
         black: '#191624',
       },
       fontFamily: {
-        "sa": ["s", "s"],
+        "sa": ["sa", "s"],
       },
     },
   },

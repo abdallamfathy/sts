@@ -4,7 +4,7 @@ import Home from "./pages/Home";
 function App() {
   return (
 
-    <div className="container mx-auto"> 
+    <div className="container mx-auto bg-gray-50"> 
       <Router>
       <Routes>
         <Route path="/" element={<Home/>} />

@@ -5,7 +5,7 @@
 
 @font-face {
     font-family: 's' , cursive;
-    src:url(../public/assets/font.ttf);
+    src:url(./assets/font.ttf);
     /* other formats include'woff2', 'truetype, 'opentype',
                               'embedded-opentype', and 'svg' */
   }
