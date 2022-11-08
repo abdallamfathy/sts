@@ -1,12 +1,16 @@
-import {  BrowserRouter as Router,  Switch,  Route,  Link} from "react-router-dom";
-import { About , Contact , Home , Navbar , Project , Service } from "./components"
+import {  BrowserRouter as Router ,  Switch,  Route,  Link, Routes} from "react-router-dom";
+import { About , Contact  , Navbar , Project , Service } from "./components"
+import Home from "./pages/Home";
 function App() {
   return (
-    <>
+
+    <div className="container mx-auto"> 
       <Router>
-        <Route path="/" component={Navbar} />
+      <Routes>
+        <Route path="/" element={<Home/>} />
+        </Routes>
         </Router>
-    </>
+    </div>
   );
 }
 
