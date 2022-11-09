@@ -3,10 +3,10 @@ import React from 'react'
 const Navbar = () => {
   return (
     <>
-      <nav className='flex  justify-between items-center     font-medium  p-4 '>
+      <div className='flex  justify-between items-center font-medium  pt-8 mb-8 '>
         <div className="flex flex-row items-center">
-          <span className="font-extrabold text-3xl items-start inline ">A+</span>
-          <h1>Studio</h1>
+          {/* <span className="font-extrabold text-3xl items-start inline ">A+</span> */}
+          <h1 className='font-bold sm:text-4xl'>Studio</h1>
         </div>
         <div>
                   
@@ -28,7 +28,7 @@ const Navbar = () => {
         </ul>
 
         </div>
-      </nav>
+      </div>
     </>
   )
 }
