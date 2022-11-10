@@ -2,7 +2,6 @@ import React, { useEffect } from 'react'
 import HeroImg from '../assets/imgs/hero.png'
 import WebFont from 'webfontloader';
 import '../index.css';
-import  {Container, Grid, Typography}  from '@mui/material'
 
 const Hero = () => {
   useEffect(() => {
