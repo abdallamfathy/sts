@@ -16,7 +16,7 @@ const Navbar = () => {
   return (
     <>
     <div>
-      <div className='h-20 mt-10'>
+      <div className='h-5 mt-10'>
         <nav className='flex items-center justify-around'>
           <div className='flex-1'>
             <h1 className='text-2xl font-bold'>Studio</h1>
