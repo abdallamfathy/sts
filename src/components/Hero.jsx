@@ -7,21 +7,21 @@ const Hero = () => {
   useEffect(() => {
     WebFont.load({
       google: {
-        families: ['Plus Jakarta Sans', 'Chilanka']
+        families: ['Cairos']
       }
     });
    }, []);
 
    return (
      <div>
-         <div className='grid grid-flow-row grid-rows-2
+         <div className='grid grid-flow-row grid-row
          lg:grid-flow-col lg:grid-cols-4  items-center'>
                      
         <div className=' col-span-2'>
-         <h3 className="text-xl font-semibold mb-8 font-loader lg:text-4xl mt-20">        
+         <h3 className="text-xl font-semibold mb-8  lg:text-4xl mt-20">        
              A Digital Product Agency
          </h3>
-         <p className='text-gray-500 w-1/1 block  lg:pl-24 lg:pr-22 
+         <p className='text-gray-600 w-1/1 block  lg:pl-24 lg:pr-22 
           lg:relative lg:right-24 leading-8'>Leading digital agency with solid design and development expertise.<wbr></wbr> We build readymade websites,<wbr/> mobile applications, and elaborate online business services.</p>
          <button className='bg-blue-600 text-white rounded-3xl w-36 pl-4 pr-4 mt-8 pt-3 pb-3  text-md '>Contact Now</button>
         </div>
