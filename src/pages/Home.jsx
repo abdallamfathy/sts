@@ -1,12 +1,13 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { Clients, Hero, Navbar } from '../components'
+import { Clients, Hero, Navbar, Service } from '../components'
 const Home = () => {
   return (
     <>
       <Navbar/>
       <Hero/>
       <Clients/>
+      <Service/>
     </>
   )
 }
