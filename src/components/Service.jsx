@@ -8,13 +8,13 @@ const Service = () => {
 <>
 
     <div className='flex lg:flex-row flex-col  flex-1 justify-betwee   mb-80 items-center relative mt-36  '>
-        <div className=' mr-28 flex flex-col  items-center'>
+        <div className=' lg:mr-28 flex flex-col  items-center'>
           <span className='bg-[#FFF5DB] rounded-tl-[80px] w-40 h-40 relative top-32 -left-40  block'></span>
-            <h1 className='text-4xl w-[350px]  relative -left-7 font-bold mb-6 mt-6'>How can we help your Business ?</h1>
-            <p className=' w-[420px] break-words text-lg leading-8 text-gray-400'>We build readymade websites, mobile applications, and elaborate online business services.</p>
+            <h1 className='text-4xl lg:w-[350px]  relative lg:-left-7 font-bold mb-6 mt-6'>How can we help your Business ?</h1>
+            <p className=' lg:w-[420px] break-words text-lg leading-8 text-gray-400'>We build readymade websites, mobile applications, and elaborate online business services.</p>
         </div>
 
-        <div className='flex flex-row gap-x-10 align-bott  items-en  relative bottom-3 mt-20 '>
+        <div className='flex flex-col lg:flex-row gap-x-10 items-center  relative bottom-3 mt-20 '>
 
 
         <div className='flex flex-col '>
@@ -36,7 +36,7 @@ const Service = () => {
         </div>
         </div>
 
-        <div className='flex flex-col relative bottom-16'>
+        <div className='flex flex-col relative lg:bottom-16 max-lg:mt-6'>
         <div className='bg-white border border-gray-100 shadow-lg rounded-[40px] w-72 h-96 relative flex flex-col flex1 justify-center translate items-center  '>
             <div className='w-28 h-28 h- bg-[#FFF5DB] rounded-2xl absolute left-[94px] top-[39px] flex justify-center items-center'>
               <img src={wallet} alt="asd" className='w-[74px] h-[74px]'  />
