@@ -8,7 +8,7 @@ import amazon from '../assets/imgs/amazon.png'
 const Clients = () => {
   return (
     <>
-        <div className='flex lg:flex-row flex-col  flex-1 lg:justify-between max-lg:justify-center max-lg:items-center max-lg:text-center  mt-24 mb-52'>
+        <div className='flex lg:flex-row flex-col  flex-1 lg:justify-between max-lg:justify-center max-lg:items-center max-lg:text-center  mt-24'>
             <div className='w-[300px]'>
                 <h1 className='text-4xl font-semibold mb-6'>Our Clients</h1>
                 <p className='break-words text-lg leading-8 text-gray-500'>Several selected clients, who already believe in our service.</p>

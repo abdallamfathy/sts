@@ -15,7 +15,7 @@ const Hero = () => {
    return (
      <div>
          <div className='grid grid-flow-row grid-row
-         lg:grid-flow-col lg:grid-cols-4  items-center'>
+         lg:grid-flow-col lg:grid-cols-4  items-center max-lg:bg-{HeroImg} rounded-2xl'>
                      
         <div className=' col-span-2'>
          <h3 className="text-xl font-semibold mb-8  lg:text-4xl mt-20">        

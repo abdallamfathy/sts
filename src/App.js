@@ -4,7 +4,7 @@ import Home from "./pages/Home";
 function App() {
   return (
 
-    <div className="container mx-auto lg:px-16 px-8  bg-gray-00">
+    <div className="container overflow-x-hidden mx-auto  lg:px-16 px-8  bg-gray-00">
       
       <Router>
       <Routes>
