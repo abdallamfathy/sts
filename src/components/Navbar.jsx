@@ -3,13 +3,14 @@ import {FaBars} from 'react-icons/fa'
 import { Link } from 'react-router-dom';
 import { Dialog } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
+import { Contact } from '.';
 const Navbar = () => {
 
   const navigation = [
     { name: 'Home', href: '/', current: true },
-    { name: 'Clients', href: '/about', current: false },
-    { name: 'Projects', href: '/contact', current: false },
-    { name: 'Contact', href: '/contact', current: false },
+    { name: 'Clients', href: '/', current: false },
+    { name: 'Projects', href: '/', current: false },
+    { name: 'Contact', href: '/', current: false },
     
   ]
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);

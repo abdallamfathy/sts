@@ -11,7 +11,7 @@ const Service = () => {
         <div className=' lg:mr-28 flex flex-col  items-center'>
           <span className='bg-[#FFF5DB] rounded-tl-[80px] w-40 h-40 relative top-32 -left-40  block'></span>
             <h1 className='text-4xl lg:w-[350px]  relative lg:-left-7 font-bold mb-6 mt-6'>How can we help your Business ?</h1>
-            <p className=' lg:w-[420px] break-words text-lg leading-8 text-gray-400'>We build readymade websites, mobile applications, and elaborate online business services.</p>
+            <p className=' lg:w-[420px] break-words text-lg leading-8 text-gray-400 z-10'>We build readymade websites, mobile applications, and elaborate online business services.</p>
         </div>
 
         <div className='flex flex-col lg:flex-row gap-x-10 items-center  relative bottom-3 mt-20 '>
